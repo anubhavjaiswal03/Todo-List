@@ -4,11 +4,24 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
-		<title>My Project</title>
+		<title>todos</title>
 	</head>
 	<body>
-		<h1>MY Project</h1>
-		
+		<h1>todos</h1>
+		<form id="form">
+			<input
+				type="text"
+				class="input"
+				id="input"
+				placeholder="Enter your todo"
+				autocomplete="off"
+			/>
+			<ul class="todos" id="todos"></ul>
+		</form>
+		<small
+			>Left click to toggle <strong>completed</strong>. <br />
+			Right click to <strong>delete</strong> todo
+		</small>
 		<script src="script.js"></script>
 	</body>
 </html>
